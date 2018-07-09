@@ -1,0 +1,156 @@
+.title {
+  text-align: center;
+  font-size: 5vh;
+}
+a{
+
+  text-decoration: none;
+  color: black;
+  font-family: "CentSchbkCyrill BT";
+  font-size: 30px;
+}
+a:hover{
+  color: brown;
+}
+img{
+  width: 100%;
+  height: 296px;
+}
+.whatsapp{
+
+  width: 45%;
+  height: 400px;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin-left: 3%;
+  margin-right: 4%;
+
+}
+.gitter{
+
+  width: 45%;
+  height: 400px;
+  display: inline-block;
+  padding: 0;
+}
+.mat-card:not([class*=mat-elevation-z]){
+  box-shadow: none;
+
+}
+@media screen and (max-width: 800px){
+  .gitter, .whatsapp{
+    width: 100%;
+    height: 300px;
+    margin-right: 1%;
+    margin-left: 1%;
+
+  }
+  .whatsapp{
+    margin-bottom: 200px;
+  }
+  img{
+    height: 375px ;
+  }
+}
+@media screen and (max-width: 400px) {
+  .gitter, .whatsapp{
+    width: 100%;
+    height: 200px;
+    margin-right: 1%;
+    margin-left: 1%;
+
+  }
+  img{
+    width: 100%;
+    height: 200px;
+  }
+  .whatsapp{
+    margin-bottom: 30%;
+  }
+  .title{
+    font-size: 3vh;
+  }
+}
+
+
+/*.container{*/
+  /*background-color: transparent;*/
+  /*display: inline-block;*/
+  /*padding: 0;*/
+  /*position: relative;*/
+  /*width: 45%;*/
+  /*height: 294px;*/
+/*}*/
+/*.left{*/
+  /*margin-right: 4.5%;*/
+  /*margin-left: 2%;*/
+/*}*/
+/*.thecardl{*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*padding: 0;*/
+  /*transform-style: preserve-3d;*/
+  /*transition: all 0.5s ease;*/
+  /*padding: 0;*/
+/*}*/
+/*.thecardl:hover{*/
+  /*transform: rotateY(180deg);*/
+/*}*/
+/*.thecardr{*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*padding: 0;*/
+  /*transform-style: preserve-3d;*/
+  /*transition: all 0.5s ease;*/
+  /*padding: 0;*/
+/*}*/
+/*.thecardr:hover{*/
+  /*transform: rotateY(180deg);*/
+/*}*/
+/*.wh-front{*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*backface-visibility: hidden;*/
+  /*background-image: url("../../../assets/images/Whatsapp-Web-android-809x396.jpg");*/
+  /*background-size: contain;*/
+  /*background-repeat: no-repeat;*/
+  /*padding: 0;*/
+  /*border-radius: 6px;*/
+/*}*/
+/*.gt-front{*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*backface-visibility: hidden;*/
+  /*background-image: url("../../../assets/images/gitter.jpg");*/
+  /*background-size: contain;*/
+  /*background-repeat: no-repeat;*/
+  /*padding: 0;*/
+  /*border-radius: 6px;*/
+/*}*/
+/*.wh-back{*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*backface-visibility: hidden;*/
+  /*background-color: darkgray;*/
+
+  /*padding: 0;*/
+  /*border-radius: 6px;*/
+  /*transform: rotateY(180deg);*/
+/*}*/
+/*.gt-back{*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*backface-visibility: hidden;*/
+  /*background-color: darkgray;*/
+
+  /*padding: 0;*/
+  /*border-radius: 6px;*/
+  /*transform: rotateY(180deg);*/
+/*}*/

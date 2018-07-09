@@ -2,13 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { PageComponent } from './components/page/page.component';
+import {MatCardModule} from '@angular/material';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
